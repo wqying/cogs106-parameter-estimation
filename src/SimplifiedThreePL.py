@@ -1,3 +1,15 @@
+"""
+SimplifiedThreePL.py
+
+This file contains the implementation of the SimplifiedThreePL class.
+- The Experiment.py and SignalDetection.py files are provided by the professor.
+- This SimplifiedThreePL implementation was generated with assistance from ChatGPT o3-mini.
+
+Author: Aiden Hai
+Date: 03/04/2025
+"""
+
+
 import numpy as np
 from scipy.optimize import minimize
 from src.Experiment import Experiment
