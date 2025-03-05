@@ -1,6 +1,8 @@
 from typing import List, Tuple, Optional
 from src.SignalDetection import SignalDetection
 
+# This code is given by the professor
+
 class Experiment:
     def __init__(self):
         """Initialize an empty experiment."""

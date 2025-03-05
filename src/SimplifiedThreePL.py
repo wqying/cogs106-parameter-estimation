@@ -3,6 +3,7 @@ from scipy.optimize import minimize
 from src.Experiment import Experiment
 from src.SignalDetection import SignalDetection
 
+# ChatGPT was used to assist our group for this
 
 class SimplifiedThreePL:
 

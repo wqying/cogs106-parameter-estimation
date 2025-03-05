@@ -9,6 +9,8 @@ from src.SimplifiedThreePL import SimplifiedThreePL
 from src.Experiment import Experiment
 from src.SignalDetection import SignalDetection
 
+# We also had assistance from ChatGPT for this
+
 class TestSimplifiedThreePL(unittest.TestCase):
     
     def setUp(self):
