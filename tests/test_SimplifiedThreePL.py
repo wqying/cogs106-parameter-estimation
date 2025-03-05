@@ -1,3 +1,15 @@
+"""
+test_SimplifiedThreePL.py
+
+This file contains the unit and integration tests for the SimplifiedThreePL class.
+- The Experiment.py and SignalDetection.py files are provided by the professor.
+- The test code (and parts of the SimplifiedThreePL implementation) were generated with assistance from ChatGPT o3-mini.
+
+Author: Aiden Hai
+Date: 03/04/2025
+"""
+
+
 import sys
 import os
 # Insert the repository root (parent of src and tests) into sys.path
@@ -21,6 +33,7 @@ class TestSimplifiedThreePL(unittest.TestCase):
             # n_correct = 20 + 15 = 35; n_incorrect = 10 + 5 = 15; total trials = 50.
             sdt = SignalDetection(20, 10, 5, 15)
             self.exp.add_condition(sdt)
+        
         self.model = SimplifiedThreePL(self.exp)
     
     # === Initialization Tests ===
